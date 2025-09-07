@@ -7,6 +7,12 @@
 
 ---
 
+## 📎 專案檔案
+- [完整 Notebooks: 房地產預測.ipynb](./房地產預測.ipynb)  
+- [資料合併: kaggle_real_estate_dataset_builder.py](./kaggle_real_estate_dataset_builder.py)  
+
+---
+
 ## 📂 資料來源
 - 來源：Kaggle 房地產交易預測比賽公開資料集  
 - 資料內容涵蓋：
