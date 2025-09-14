@@ -210,3 +210,23 @@ __marimo__/
 *.csv
 *.parquet
 models/*.joblib
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual env
+.venv/
+env/
+.conda/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Large / sensitive
+*.csv
+*.parquet
+models/*.joblib
