@@ -87,20 +87,21 @@
 1. **安裝套件**
    ```bash
    pip install -r requirements.txt
+```
 啟動 API
 
 
 uvicorn API_deploy.app:app --reload --port 8000
 發送請求
-
+```
 使用 Swagger UI: http://127.0.0.1:8000/docs
 
 或用 curl：
-
+```
 curl -X POST "http://127.0.0.1:8000/predict" \
      -H "Content-Type: application/json" \
      -d '{"sector":"A", "year_month":"2022-08", ... }'
-
+```
 ## 👉 資料來源
 **Kaggle**:Real Estate Demand Prediction
 
