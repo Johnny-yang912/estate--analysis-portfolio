@@ -207,6 +207,10 @@ marimo/_lsp/
 __marimo__/
 
 
+*.csv
+models/*.joblib
+
+
 # Python cache
 __pycache__/
 *.pyc
