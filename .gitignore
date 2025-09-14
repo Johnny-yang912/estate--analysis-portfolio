@@ -207,16 +207,12 @@ marimo/_lsp/
 __marimo__/
 
 
-*.csv
-*.parquet
-models/*.joblib
-
 # Python cache
 __pycache__/
 *.pyc
 *.pyo
 
-# Virtual env
+# venv / env
 .venv/
 env/
 .conda/
@@ -226,7 +222,7 @@ env/
 .vscode/
 .idea/
 
-# Large / sensitive
+# 大檔或敏感
 *.csv
 *.parquet
 models/*.joblib
