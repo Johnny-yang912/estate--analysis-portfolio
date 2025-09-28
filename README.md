@@ -90,11 +90,9 @@
 ```
 啟動 API
 
-
-uvicorn API_deploy.app:app --reload --port 8000
-發送請求
+uvicorn API_deploy.app:app --reload --port 5001
 ```
-使用 Swagger UI: http://127.0.0.1:8000/docs
+使用 Swagger UI: http://127.0.0.1:5001/docs
 
 或用 curl：
 ```
