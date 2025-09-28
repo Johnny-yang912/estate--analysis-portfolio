@@ -85,11 +85,12 @@
 ## 🚀 使用方式
 
 1. **安裝套件**
-   ```bash
-   pip install -r requirements.txt
 ```
-啟動 API
+pip install -r requirements.txt
+```
+**啟動 API**
 
+```
 uvicorn API_deploy.app:app --reload --port 5001
 ```
 使用 Swagger UI: http://127.0.0.1:5001/docs
